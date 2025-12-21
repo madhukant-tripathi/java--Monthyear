@@ -1,12 +1,27 @@
-Java Month-Year Calendar
+# Month and Year Calendar Program
 
-This Java program can create a calendar for any month and any year.
-I have written the complete logic myself using only Scanner class
-and basic Java concepts.
+This is a simple Java program made by me.
+It shows the calendar of any month and year.
 
-## Logic Used
+## What this program does
+- Takes month and year as input
+- Finds the correct starting day
+- Prints the calendar
+- Works correctly for leap year
 
-- Takes month and year using Scanner class
-- Checks leap year using conditions
-- Calculates starting day of the month
-- Prints calendar using loops
+## What I used
+- Loops
+- If-else
+- Arrays
+- Basic math logic
+
+## Why I made this
+I wanted to know how a calendar is made.
+This program helped me understand dates and logic.
+
+## How to run
+- Compile the program
+- Run it
+- Enter month and year
+
+I made this program myself for practice.
