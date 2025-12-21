@@ -8,9 +8,11 @@ class Monthyear
         int mm=sc.nextInt();
         System.out.print("Year : ");
         int yy=sc.nextInt();
+            //To calcuate first day of year
         int fdy=((yy-1)*365+(yy-1)/4)%7;
         String word[]={"","JANUARY","FEBRUARY","MARCH","APRIL","MAY","JUNE","JULY","AUGUST","SEPTEMBER","OCTOBER","NOVEMBER","DECEMBER"};
         int month[]={0,31,28,31,30,31,30,31,31,30,31,30,31};
+            //First day of month
         int fdom=fdy;
         if((yy%4==0&&yy%100!=0)||yy%400==0)
         month[2]=29;
@@ -55,4 +57,5 @@ class Monthyear
             System.out.println();
         }
     }
+
 }
